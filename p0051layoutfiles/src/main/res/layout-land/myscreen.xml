@@ -1,43 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:orientation="horizontal">
+
     <TextView
         android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/horiz_orient">
-    </TextView>
+        android:text="@string/horiz_orient"></TextView>
+
     <LinearLayout
         android:id="@+id/linearLayout1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
+
         <Button
             android:id="@+id/button1"
             android:layout_width="100dp"
             android:layout_height="100dp"
-            android:text="@string/button01">
-        </Button>
+            android:text="@string/button01"></Button>
+
         <Button
             android:id="@+id/button2"
             android:layout_width="100dp"
             android:layout_height="100dp"
-            android:text="@string/button02">
-        </Button>
+            android:text="@string/button02"></Button>
+
         <Button
             android:id="@+id/button3"
             android:layout_width="100dp"
             android:layout_height="100dp"
-            android:text="@string/button03">
-        </Button>
+            android:text="@string/button03"></Button>
+
         <Button
             android:id="@+id/button4"
             android:layout_width="100dp"
             android:layout_height="100dp"
-            android:text="@string/button04">
-        </Button>
+            android:text="@string/button04"></Button>
     </LinearLayout>
 </LinearLayout>
