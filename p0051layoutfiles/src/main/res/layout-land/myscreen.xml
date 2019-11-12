@@ -19,25 +19,25 @@
             android:id="@+id/button1"
             android:layout_width="100dp"
             android:layout_height="100dp"
-            android:text="@string/button1">
+            android:text="@string/button01">
         </Button>
         <Button
             android:id="@+id/button2"
             android:layout_width="100dp"
             android:layout_height="100dp"
-            android:text="@string/button2">
+            android:text="@string/button02">
         </Button>
         <Button
             android:id="@+id/button3"
             android:layout_width="100dp"
             android:layout_height="100dp"
-            android:text="@string/button3">
+            android:text="@string/button03">
         </Button>
         <Button
             android:id="@+id/button4"
             android:layout_width="100dp"
             android:layout_height="100dp"
-            android:text="@string/button4">
+            android:text="@string/button04">
         </Button>
     </LinearLayout>
 </LinearLayout>
